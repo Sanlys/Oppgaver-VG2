@@ -1,0 +1,44 @@
+1) Lage ti brødskiver på kjøkkenet for mellommåltid til hele familien og ta de med til stua.
+
+    Identifiser:
+        Jeg skal lage 10 brødskiver på kjøkkenet til hele familien og ta de med til stua.
+
+    Dokumenter:
+        Jeg må gå inn på kjøkkenet, gjøre klart brød, kjøre klart pålegg og så kan jeg smøre pålegg på brødet. 
+        Så må jeg legge brødene på en slags tallerken eller annen ting jeg kan frakte de med, og ta de med til stua.
+
+    Del opp:
+    
+        Gå inn på kjøkkenet:
+            Gå inn på kjøkkenet
+
+        Gjøre klart brød:
+            Åpne brødboksen
+            Ta ut brødskiver av brødboksen
+            Hvis det er papir rundt brødet, ta det av
+
+        Gjøre klart pålegg:
+            Spør familien om hva de vil ha på brødskivene
+            Ta ut det de vil ha fra kjøleskapet
+            Hvis det har en innpakning, ta av innpakningen
+            Finn redskapene som skal til for å smøre på pålegg
+        
+        Smøre på pålegg:
+            Bruk redskapene til å få pålegged over på brødskiven på en logisk måte. Fremgangsmåten vil være forskjellig ut ifra hva familien
+            sier de vil ha på brødskivene.
+
+        Frakte brødskiver til stua:
+            Se hvor mye plass brødskivene tar, om de tar mer enn det er plass til på en tallerken, legg de på et fat.
+            Åpne skuffen der fatet eller tallerknene ligger, påvirket av forrige steg.
+            Så flytter jeg alle brødskivene, en og en helt til jeg har flyttet alle, over på tallerkenen eller fatet.
+            Så tar tar jeg fatet eller tallerkenen og bærer den til stuen, hvor jeg setter den ned på bordet.
+
+    Rekkefølge
+
+    Betingelser:
+
+    Programflyt og design:
+
+    Løkker:
+
+    Gjennomføring
