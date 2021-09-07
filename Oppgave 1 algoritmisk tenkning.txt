@@ -33,12 +33,38 @@
             Så flytter jeg alle brødskivene, en og en helt til jeg har flyttet alle, over på tallerkenen eller fatet.
             Så tar tar jeg fatet eller tallerkenen og bærer den til stuen, hvor jeg setter den ned på bordet.
 
-    Rekkefølge
+    Rekkefølge:
+
+        1. Gå inn på kjøkkenet
+        2. Gjøre klart brød
+        3. Gjøre klart pålegg
+        4. Smøre på pålegg
+        5. Frakte brødskiver til stua
 
     Betingelser:
 
-    Programflyt og design:
-
-    Løkker:
-
+        Hvis det er parpir rundt brødet, ta det av
+        Hvis det er innpakning, ta av innpakningen
+        Hvis brødskivene ikke har plass på en tallerken, legg de på et fat             
+        Hvis jeg valgte fat i forrige steg, ta ut fatet, hvis ikke, ta ut tallerknen               
+        Hvis det er fler brødskiver, legg de på fat/tallerken              
+        Hvis alle brødskivene er flyttet over, ta de med til stua.             
+               
+    Programflyt og design:             
+               
+        Variabler:             
+            Om det er papir rundt brødet               
+            Hva familien skal ha på brødskivene            
+            Det man har tatt ut av kjøleskapet             
+            Hva slags redskaper man trenger for de forskjellige påleggene.             
+               
+    Løkker:            
+               
     Gjennomføring
+
+
+
+De faktiske oppgavene:
+    
+    Oppgave 1 (lett):
+        +
