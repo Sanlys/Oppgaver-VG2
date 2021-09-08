@@ -67,4 +67,37 @@
 De faktiske oppgavene:
     
     Oppgave 1 (lett):
-        +
+        Identifiser:
+            Jeg skal legge sammen to tall som jeg får av brukeren gjennom standard input. Jeg skal så returnere summen til standard output.
+
+        Dokumenter:
+            Jeg vet at jeg får to tall inn fra standard input, som jeg må gjøre om fra en string til en tallverdi, som en float. Jeg må legge sammen disse tallene og returnere de.
+
+        Del opp:
+            Lag to variabler og ta inn informasjon fra standard input
+            Sjekk at disse er tall
+            Konverter til float eller en annen tallverdi
+            Lag en ny variabel med verdien av summen til tallene som ble skrevet inn
+            skriv ut denne variabelen til standard output
+
+        Rekkefølge:
+            Ta innput i varaibler
+            sjekk om de er tall
+            konverter
+            legg sammen og returner
+
+        Betingelser
+            Hvis det ikke er tall, be brukeren skrive inn på nytt. Om det er tall, fortsett
+
+        Programflyt og design
+            Ligger i "leggsammentall.drawio"
+
+
+        Løkker:
+            En while true løkke rundt en try catch block, som stopped når tryen går igjennom
+
+        Gjennomføring:
+            Ligger i "leggsammentall.py"
+
+    Oppgave 2:
+    
