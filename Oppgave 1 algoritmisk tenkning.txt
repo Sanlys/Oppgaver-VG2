@@ -99,5 +99,5 @@ De faktiske oppgavene:
         Gjennomføring:
             Ligger i "leggsammentall.py"
 
-    Oppgave 2:
+    Oppgave 2 vanskelig:
     
