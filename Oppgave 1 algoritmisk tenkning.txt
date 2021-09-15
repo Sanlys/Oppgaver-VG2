@@ -100,4 +100,39 @@ De faktiske oppgavene:
             Ligger i "leggsammentall.py"
 
     Oppgave 2 vanskelig:
-    
+        Identifiser:
+            Jeg skal la en bruker legge til og slette avtaler fra en personlig kalender. Her bør jeg ha en klasse med metoder, hvor metodene kan være legg til og slett som tar inn parameteren index, tid eller navn. Selve kalenderen skal være en dictionary, med formatet "tid": "Navn", hvor listen er sortert etter tid.
+
+        Dokumenter:
+            Jeg får inn en kommando som enten ber om å slette en avtale, legge til en avtale eller som vil se hele listen. Jeg gjør da dette og endrer verdien av listen om det trengs.
+
+        Del opp:
+            Vent på kommando
+            Se hva kommandoen er
+            Hvis kommandoen er slett:
+                Fjern et element fra listen med matchene tid eller navn
+            Hvis kommandoen er legg til:
+                Be brukeren om navn og tid
+                Legg inn navnet og tiden i listen, sortert etter tid.
+            Hvis kommandoen er skriv ut:
+                Skriv ut hele listen, helst med en løkke for at formateringen blir mer forståelig.
+
+        Rekkefølge:
+            Vent på kommando
+            Gjør noe spesifikt etter hva kommandoen sier
+            Vent på kommando igjen
+
+        Betingelser:
+            Hvis kommando = slett, fjern element
+            Hvis kommando = legg til, legg til element
+            Hvis kommando = skriv ut, skriv ut listen
+            Om kommandoen er noe annet, skriv ut en hjelp side
+
+        Programflyt og design:
+            Ligger i "Kalender.svg"
+
+        Løkker:
+            En evig while true rundt programmet, sånn at brukeren alltid blir spurt om å legge til, slette eller skrive ut kalenderen. Bruker en for løkke om jeg skal slette basert på tid. Siden tid er en verdi og ikke en key, må jeg søke gjennom alle elementene for å finne riktig tid, også slette den. Dette vil slette det første elementet som matcher, og ingen andre, så det kan bli et problem.
+
+        Gjennomføring:
+            Ligger i "Kalender.py"
