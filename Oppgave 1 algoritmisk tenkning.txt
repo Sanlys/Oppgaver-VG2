@@ -124,7 +124,10 @@ De faktiske oppgavene:
 
         Betingelser:
             Hvis kommando = slett, fjern element
+                Hvis valg = n, slett element med navn data
+                Hvis valg = t, slett element med tid data
             Hvis kommando = legg til, legg til element
+                Hvis fil "kalender" ikke finnes, lag den, om den gjør, overskriv den.
             Hvis kommando = skriv ut, skriv ut listen
             Om kommandoen er noe annet, skriv ut en hjelp side
 
@@ -132,7 +135,7 @@ De faktiske oppgavene:
             Ligger i "Kalender.svg"
 
         Løkker:
-            En evig while true rundt programmet, sånn at brukeren alltid blir spurt om å legge til, slette eller skrive ut kalenderen. Bruker en for løkke om jeg skal slette basert på tid. Siden tid er en verdi og ikke en key, må jeg søke gjennom alle elementene for å finne riktig tid, også slette den. Dette vil slette det første elementet som matcher, og ingen andre, så det kan bli et problem.
+            En evig while true rundt programmet, sånn at brukeren alltid blir spurt om å legge til, slette eller skrive ut kalenderen. Bruker en for løkke om jeg skal slette basert på tid. Siden tid er en verdi og ikke en key, må jeg søke gjennom alle elementene for å finne riktig tid, også slette den. Dette vil slette det første elementet som matcher, og ingen andre, så det kan bli et problem. Jeg bruker også en løkke for å skriv eut kalenderen, men det er bare så det skal bli mer leselig, det er ikke noen logikk der.
 
         Gjennomføring:
             Ligger i "Kalender.py"

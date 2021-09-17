@@ -20,7 +20,7 @@ class kalender:
 			}
 
 	def slett(self):
-		print(self.liste)
+		liste.skrivUt()
 		valg = input("Vil du fylle inn navn eller tid? (n, t): ")
 		if valg.lower() == "n":
 			data = input("")
@@ -57,3 +57,10 @@ while True:
 		liste.skrivUt()
 	if kommando.lower() == "lukk":
 		break
+	else:
+		print("Finner ikke kommandoen ", kommando, ". Har du skrevet riktig?\n", sep="")
+		print('Kommandoer')
+		print('"Legg til" - Legger til avtale, tar input tid og avtale')
+		print('"Slett" - Sletter en avtale, tar input tid eller avtale')
+		print('"Skriv ut" - Skriver ut alle avtalene, tar ingen input')
+		print('"Lukk" - lukker programmet')
